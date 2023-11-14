@@ -1,0 +1,1 @@
+print(f'Средний показатель температуры воздуха по КР на  сегодня {round(bishkek+issykkyl+naryn+talas+jalalabad+osh+batken+chui)/8,1}°C')
