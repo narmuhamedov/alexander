@@ -74,6 +74,7 @@ class Car:
         return f'{self.marka}\n{self.volume}\n{self.color}'
 
 
+
 class FuelCar(Car):
     def __init__(self, marka, volume, color, fuel):
         super().__init__(marka, volume, color)
@@ -86,3 +87,5 @@ class FuelCar(Car):
 class ElectricCar(Car):
     def __init__(self, marka, volume, color):
         super().__init__(marka, volume, color)
+
+electric_car = ElectricCar(marka=True, volume=123, color='red')
